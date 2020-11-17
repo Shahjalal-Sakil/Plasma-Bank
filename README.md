@@ -13,7 +13,10 @@ Execute the following command:
     http://localhost:8080
   
   i.for donor:
-    /donors
-    /donors/donorId
+    1./donors
+    
+    2./donors/donorId
+    
   ii. for patient:
-   /patients/patientId
+   1./patients
+   2./patients/patientId
