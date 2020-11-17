@@ -1,17 +1,19 @@
 # Plasma-Bank
 Install git
 Execute the following command:
-  git clone --depth 1 https://github.com/Shahjalal-Sakil/Plasma-Bank.git
-  npm install mongodb
-  npm install mongoose
-  mongod
-  npm intsall --save-dev nodemon
-  npm install express
-  npm run start
- check the api using postman:
+  1. git clone --depth 1 https://github.com/Shahjalal-Sakil/Plasma-Bank.git
+  2. npm install mongodb
+  3. npm install mongoose
+  4. mongod
+  5. npm intsall --save-dev nodemon
+  6. npm install express
+  7. npm run start
+  
+ 8.check the api using postman:
     http://localhost:8080
   
-  for donor:
+  i.for donor:
     /donors
-   for patient:
-   /patients
+    /donors/donorId
+  ii. for patient:
+   /patients/patientId
